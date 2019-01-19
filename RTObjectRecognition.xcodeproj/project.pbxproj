@@ -12,6 +12,8 @@
 		8EAEC56221F365C300AFDD39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EAEC56021F365C300AFDD39 /* Main.storyboard */; };
 		8EAEC56421F365C500AFDD39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EAEC56321F365C500AFDD39 /* Assets.xcassets */; };
 		8EAEC56721F365C500AFDD39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EAEC56521F365C500AFDD39 /* LaunchScreen.storyboard */; };
+		8EAEC56F21F36F0100AFDD39 /* SqueezeNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8EAEC56E21F36F0100AFDD39 /* SqueezeNet.mlmodel */; };
+		8EAEC57121F36F0C00AFDD39 /* Resnet50.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8EAEC57021F36F0C00AFDD39 /* Resnet50.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		8EAEC56321F365C500AFDD39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8EAEC56621F365C500AFDD39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8EAEC56821F365C500AFDD39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8EAEC56E21F36F0100AFDD39 /* SqueezeNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SqueezeNet.mlmodel; sourceTree = "<group>"; };
+		8EAEC57021F36F0C00AFDD39 /* Resnet50.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Resnet50.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				8EAEC55C21F365C300AFDD39 /* AppDelegate.swift */,
 				8EAEC55E21F365C300AFDD39 /* ViewController.swift */,
+				8EAEC57021F36F0C00AFDD39 /* Resnet50.mlmodel */,
+				8EAEC56E21F36F0100AFDD39 /* SqueezeNet.mlmodel */,
 				8EAEC56021F365C300AFDD39 /* Main.storyboard */,
 				8EAEC56321F365C500AFDD39 /* Assets.xcassets */,
 				8EAEC56521F365C500AFDD39 /* LaunchScreen.storyboard */,
@@ -136,6 +142,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8EAEC55F21F365C300AFDD39 /* ViewController.swift in Sources */,
+				8EAEC56F21F36F0100AFDD39 /* SqueezeNet.mlmodel in Sources */,
+				8EAEC57121F36F0C00AFDD39 /* Resnet50.mlmodel in Sources */,
 				8EAEC55D21F365C300AFDD39 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +293,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LZ9DFW98U9;
 				INFOPLIST_FILE = RTObjectRecognition/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -303,6 +312,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LZ9DFW98U9;
 				INFOPLIST_FILE = RTObjectRecognition/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
